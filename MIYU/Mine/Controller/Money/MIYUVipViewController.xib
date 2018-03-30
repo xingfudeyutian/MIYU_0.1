@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MIYUVipViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vip_bg" translatesAutoresizingMaskIntoConstraints="NO" id="6ON-W9-g15">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="272"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6ON-W9-g15" secondAttribute="height" multiplier="375:272" id="s7g-tP-Fc4"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gX5-Pd-vYY">
+                    <rect key="frame" x="10" y="287" width="115" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="5mc-iu-2hU"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="vip_btbg1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyb-pW-4EB">
+                    <rect key="frame" x="130" y="287" width="115" height="140"/>
+                    <state key="normal" backgroundImage="vip_btbg2"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tP8-eP-Abz">
+                    <rect key="frame" x="250" y="287" width="115" height="140"/>
+                    <state key="normal" backgroundImage="vip_btbg3"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="· 会员专区交友 · 无限随机匹配" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJa-sP-Fyr">
+                    <rect key="frame" x="92.000000000000014" y="504" width="191.33333333333337" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="· 超级会员形象 · 每日随撩免费" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ki2-9r-Lyy">
+                    <rect key="frame" x="92.333333333333329" y="531" width="191.33333333333337" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azb-Ba-iBP">
+                    <rect key="frame" x="122" y="467" width="131" height="17"/>
+                    <attributedString key="attributedText">
+                        <fragment content="超级VIP会员特权">
+                            <attributes>
+                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i18-m7-sJW">
+                    <rect key="frame" x="113.33333333333331" y="221" width="150" height="21"/>
+                    <attributedString key="attributedText">
+                        <fragment content="成为会员享受更高权限">
+                            <attributes>
+                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="15" name="STHeitiSC-Medium"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="i18-m7-sJW" firstAttribute="centerX" secondItem="6ON-W9-g15" secondAttribute="centerX" id="5qa-QR-cpI"/>
+                <constraint firstAttribute="trailing" secondItem="tP8-eP-Abz" secondAttribute="trailing" constant="10" id="9my-rw-0cn"/>
+                <constraint firstAttribute="trailing" secondItem="6ON-W9-g15" secondAttribute="trailing" id="Bi3-Yn-j1u"/>
+                <constraint firstItem="6ON-W9-g15" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BqN-D7-Er9"/>
+                <constraint firstItem="qyb-pW-4EB" firstAttribute="leading" secondItem="gX5-Pd-vYY" secondAttribute="trailing" constant="5" id="BzD-IP-P7c"/>
+                <constraint firstItem="qyb-pW-4EB" firstAttribute="width" secondItem="gX5-Pd-vYY" secondAttribute="width" id="D7Y-UM-owX"/>
+                <constraint firstItem="qyb-pW-4EB" firstAttribute="bottom" secondItem="gX5-Pd-vYY" secondAttribute="bottom" id="DhH-aH-vdW"/>
+                <constraint firstItem="ZJa-sP-Fyr" firstAttribute="top" secondItem="azb-Ba-iBP" secondAttribute="bottom" constant="20" id="Dxj-9f-GpQ"/>
+                <constraint firstItem="tP8-eP-Abz" firstAttribute="bottom" secondItem="gX5-Pd-vYY" secondAttribute="bottom" id="JS7-kc-ItC"/>
+                <constraint firstItem="6ON-W9-g15" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LMx-XJ-Q7s"/>
+                <constraint firstItem="tP8-eP-Abz" firstAttribute="leading" secondItem="qyb-pW-4EB" secondAttribute="trailing" constant="5" id="MMI-BA-0Hn"/>
+                <constraint firstItem="qyb-pW-4EB" firstAttribute="top" secondItem="gX5-Pd-vYY" secondAttribute="top" id="NpM-il-h0O"/>
+                <constraint firstItem="Ki2-9r-Lyy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="T7m-li-sTy"/>
+                <constraint firstItem="Ki2-9r-Lyy" firstAttribute="top" secondItem="ZJa-sP-Fyr" secondAttribute="bottom" constant="10" id="TvW-td-oSs"/>
+                <constraint firstItem="6ON-W9-g15" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UTb-HF-Moy"/>
+                <constraint firstItem="6ON-W9-g15" firstAttribute="bottom" secondItem="i18-m7-sJW" secondAttribute="bottom" constant="30" id="X8f-9p-rQK"/>
+                <constraint firstItem="tP8-eP-Abz" firstAttribute="width" secondItem="gX5-Pd-vYY" secondAttribute="width" id="YaA-Bh-Dyk"/>
+                <constraint firstItem="6ON-W9-g15" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Z3R-3S-9ad"/>
+                <constraint firstItem="gX5-Pd-vYY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="d6C-88-CpC"/>
+                <constraint firstItem="gX5-Pd-vYY" firstAttribute="top" secondItem="6ON-W9-g15" secondAttribute="bottom" constant="15" id="ehc-FA-BP6"/>
+                <constraint firstItem="azb-Ba-iBP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fXv-tq-Hqv"/>
+                <constraint firstItem="tP8-eP-Abz" firstAttribute="top" secondItem="gX5-Pd-vYY" secondAttribute="top" id="t4o-s3-sMo"/>
+                <constraint firstAttribute="trailing" secondItem="6ON-W9-g15" secondAttribute="trailing" id="wAf-Cx-3az"/>
+                <constraint firstItem="azb-Ba-iBP" firstAttribute="top" secondItem="qyb-pW-4EB" secondAttribute="bottom" constant="40" id="xTm-Z5-Ks5"/>
+                <constraint firstItem="ZJa-sP-Fyr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yGG-M3-4Lq"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="54"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="vip_bg" width="375" height="272"/>
+        <image name="vip_btbg1" width="115" height="139"/>
+        <image name="vip_btbg2" width="115" height="139"/>
+        <image name="vip_btbg3" width="115" height="139"/>
+    </resources>
+</document>

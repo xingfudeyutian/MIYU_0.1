@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MIYUVideoCell" id="gTV-IL-0wX" customClass="MIYUVideoCell">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="293"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="223" height="293"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-U1-07O">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="293"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loX-uR-beA">
+                        <rect key="frame" x="10" y="266" width="203" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXe-Tl-YMi">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="293"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <attributedString key="attributedText">
+                            <fragment content="VIP">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="15" name="STHeitiSC-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="私密专区">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="15" name="STHeitiSC-Medium"/>
+                                    <font key="NSOriginalFont" size="15" name="STHeitiSC-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="15" name="STHeitiSC-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="建议戴耳机进入">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="12" name="STHeitiSC-Light"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Fe9-U1-07O" secondAttribute="bottom" id="GIe-6C-s9C"/>
+                <constraint firstAttribute="trailing" secondItem="loX-uR-beA" secondAttribute="trailing" constant="10" id="GOI-oZ-Hw3"/>
+                <constraint firstItem="gXe-Tl-YMi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="IlO-kO-vqR"/>
+                <constraint firstItem="Fe9-U1-07O" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J0I-yL-dPL"/>
+                <constraint firstAttribute="bottom" secondItem="gXe-Tl-YMi" secondAttribute="bottom" id="M3P-Wy-2jt"/>
+                <constraint firstItem="loX-uR-beA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Ozc-xU-Q19"/>
+                <constraint firstAttribute="trailing" secondItem="gXe-Tl-YMi" secondAttribute="trailing" id="PeL-Qp-ove"/>
+                <constraint firstItem="Fe9-U1-07O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Prv-Hs-H8D"/>
+                <constraint firstItem="gXe-Tl-YMi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="T3B-Xk-R0U"/>
+                <constraint firstAttribute="bottom" secondItem="loX-uR-beA" secondAttribute="bottom" constant="10" id="fdp-hG-eZf"/>
+                <constraint firstAttribute="trailing" secondItem="Fe9-U1-07O" secondAttribute="trailing" id="nqZ-le-pJi"/>
+            </constraints>
+            <size key="customSize" width="223" height="293"/>
+            <connections>
+                <outlet property="MVPLabel" destination="gXe-Tl-YMi" id="Idp-pP-nrG"/>
+                <outlet property="pictureImageV" destination="Fe9-U1-07O" id="pMv-Hg-kLt"/>
+                <outlet property="titleLabel" destination="loX-uR-beA" id="yf0-fU-5dv"/>
+            </connections>
+            <point key="canvasLocation" x="120.5" y="175.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="info" width="610" height="610"/>
+    </resources>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MIYUVoiceView">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="203"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="voiceline0" translatesAutoresizingMaskIntoConstraints="NO" id="g9G-S1-5KX">
+                    <rect key="frame" x="0.0" y="78" width="331" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="dB7-UY-DSs"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iS3-CW-EsM">
+                    <rect key="frame" x="102.5" y="37" width="126" height="129"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="iS3-CW-EsM" secondAttribute="height" multiplier="113:116" id="cRf-CW-vOW"/>
+                    </constraints>
+                    <state key="normal" image="voice"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="按住说话" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvb-dT-3Ls">
+                    <rect key="frame" x="137" y="166" width="57.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g9G-S1-5KX" firstAttribute="centerX" secondItem="iS3-CW-EsM" secondAttribute="centerX" id="Cxt-Wp-YaO"/>
+                <constraint firstAttribute="trailing" secondItem="g9G-S1-5KX" secondAttribute="trailing" id="I3o-q6-cvC"/>
+                <constraint firstItem="g9G-S1-5KX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OED-vi-q5h"/>
+                <constraint firstItem="iS3-CW-EsM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Rth-Xd-yCm"/>
+                <constraint firstItem="cvb-dT-3Ls" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ye1-uf-6sQ"/>
+                <constraint firstAttribute="bottom" secondItem="cvb-dT-3Ls" secondAttribute="bottom" constant="20" id="aRN-iJ-tmH"/>
+                <constraint firstItem="g9G-S1-5KX" firstAttribute="centerY" secondItem="iS3-CW-EsM" secondAttribute="centerY" id="aSW-hO-5zE"/>
+                <constraint firstItem="iS3-CW-EsM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hZQ-af-E1E"/>
+                <constraint firstAttribute="trailing" secondItem="g9G-S1-5KX" secondAttribute="trailing" id="hqD-ya-ikW"/>
+                <constraint firstItem="g9G-S1-5KX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lDI-eB-rLQ"/>
+                <constraint firstItem="cvb-dT-3Ls" firstAttribute="top" secondItem="iS3-CW-EsM" secondAttribute="bottom" id="n0g-P6-c90"/>
+                <constraint firstItem="iS3-CW-EsM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oRO-vr-iGj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="voiceButton" destination="iS3-CW-EsM" id="tE5-2H-PQ7"/>
+                <outlet property="voiceline" destination="g9G-S1-5KX" id="WmK-FC-PHS"/>
+            </connections>
+            <point key="canvasLocation" x="52.5" y="-203.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="voice" width="113" height="116"/>
+        <image name="voiceline0" width="393" height="47"/>
+    </resources>
+</document>
